@@ -3,7 +3,11 @@
 ## Overview
 This machine learning project is developed to predict whether it will rain tomorrow based on various meteorological parameters. The project focuses on data-driven weather forecasting by leveraging supervised learning algorithms and effective data preprocessing techniques.  
 
-The initiative demonstrates the complete workflow of building a classification model — from handling missing data and encoding categorical features to evaluating the model using robust performance metrics.
+The initiative demonstrates the complete workflow of building a classification model — from handling missing data and encoding categorical features to evaluating the model using robust performance metrics. We will demonstrate our data science and machine learning skills by performing the following tasks, each of which includes specific steps:
+
+1. Explore and prepare the dataset: Feature engineering and cleaning.
+2. Build a classifier pipeline: Model selection, training, and optimization.
+3. Evaluate the model’s performance: Interpret metrics and visualizations.
 
 ---
 
