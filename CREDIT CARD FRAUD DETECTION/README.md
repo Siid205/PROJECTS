@@ -23,7 +23,7 @@ while demonstrating effective approaches to handle such datasets through various
 
 
 # Technology Framework
-  Programming Language: Python
+  Programming Language : Python
   Core Libraries: scikit-learn for machine learning, NumPy for numerical computations, Pandas for data manipulation, Matplotlib and Seaborn for data visualization
   Development Platform: Jupyter Notebook for interactive development and analysis
 
