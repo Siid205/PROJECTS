@@ -1,4 +1,4 @@
-Retail Data Analytics Using SQL
+# Retail Data Analytics Using SQL
 Overview
 
 This data analytics project focuses on analyzing retail business data using SQL to uncover insights related to customer purchasing behavior, customer segmentation, and sales performance. The project applies structured query techniques to transform raw transactional data into meaningful business intelligence that supports marketing, inventory, and customer retention strategies.
