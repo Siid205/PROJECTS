@@ -5,10 +5,22 @@ This project uses SQL to analyze structured data and extract actionable business
 
 ## Objective
 
-Clean and preprocess raw data using SQL
+1. Clean and preprocess raw data using SQL
 
-Perform EDA to identify trends and anomalies
+2. Perform EDA to identify trends and anomalies
 
-Analyze sales, customer behavior, and product performance
+3. Analyze sales, customer behavior, and product performance
 
-Support data-driven decisions for marketing, inventory, and retention
+4. Support data-driven decisions for marketing, inventory, and retention
+
+## Customer Segmentation Strategy
+
+Customers are categorized based on total quantity of products purchased:
+
+1. No Orders – 0 purchases
+
+2. Low – 1 to 10 purchases
+
+3. Mid – 11 to 30 purchases
+
+4. High Value – More than 30 purchases
