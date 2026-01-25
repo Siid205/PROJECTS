@@ -24,3 +24,5 @@ Customers are categorized based on total quantity of products purchased:
 3. Mid – 11 to 30 purchases
 
 4. High Value – More than 30 purchases
+
+Datasets are included with the project.
