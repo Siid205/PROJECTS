@@ -16,17 +16,7 @@ The system uses VGG16 (Transfer Learning) to classify damage types such as dents
    
 ## System Workflow
 
-Input Image
-     ↓
-Preprocessing (ImageDataGenerator / PIL)
-     ↓
-Damage Detection Model (VGG16)
-     ↓
-BLIP Processor (Image + Prompt)
-     ↓
-BLIP Model (Caption / Summary Generation)
-     ↓
-Output: Damage Class + Caption / Summary
+Input Image → Preprocessing → VGG16 Model → BLIP Model → Output (Damage Class + Caption/Summary)
 
 ## Tech Stack
 
@@ -44,6 +34,7 @@ Base Model: VGG16 (pretrained on ImageNet)
 Top layers replaced with custom Dense layers
 Convolutional layers frozen for feature extraction
 Trained on aircraft damage dataset (cracks & dents)
+
 🔹 Captioning & Summarization Model
 Model: BLIP (Vision-Language Model)
 Generates:
