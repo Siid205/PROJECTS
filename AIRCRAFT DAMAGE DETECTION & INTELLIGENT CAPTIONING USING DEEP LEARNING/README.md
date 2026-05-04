@@ -29,26 +29,21 @@ Input Image → Preprocessing → VGG16 Model → BLIP Model → Output (Damage 
 
 ## Model Details
 
-🔹 Damage Detection Model
-Base Model: VGG16 (pretrained on ImageNet)
+🔹 Damage Detection Model:
 
-Top layers replaced with custom Dense layers
+Base Model: VGG16 (pretrained on ImageNet).
+Top layers replaced with custom Dense layers.
+Convolutional layers frozen for feature extraction.
+Trained on aircraft damage dataset (cracks & dents).
 
-Convolutional layers frozen for feature extraction
+🔹 Captioning & Summarization Model:
 
-Trained on aircraft damage dataset (cracks & dents)
-
-🔹 Captioning & Summarization Model
-
-Model: BLIP (Vision-Language Model)
-
-Generates:
-Caption → short description
-
-Summary → detailed explanation
-
-Uses prompt-based text generation
-Integrated into TensorFlow using a custom Keras layer (tf.py_function)
+Model: BLIP (Vision-Language Model).
+Generates: 
+Caption → short description.
+Summary → detailed explanation.
+Uses prompt-based text generation.
+Integrated into TensorFlow using a custom Keras layer (tf.py_function).
 
 ## Results
 
