@@ -31,8 +31,11 @@ Input Image → Preprocessing → VGG16 Model → BLIP Model → Output (Damage 
 
 🔹 Damage Detection Model
 Base Model: VGG16 (pretrained on ImageNet)
+
 Top layers replaced with custom Dense layers
+
 Convolutional layers frozen for feature extraction
+
 Trained on aircraft damage dataset (cracks & dents)
 
 🔹 Captioning & Summarization Model
@@ -41,7 +44,9 @@ Model: BLIP (Vision-Language Model)
 
 Generates:
 Caption → short description
+
 Summary → detailed explanation
+
 Uses prompt-based text generation
 Integrated into TensorFlow using a custom Keras layer (tf.py_function)
 
@@ -68,10 +73,10 @@ Successfully generated meaningful captions and summaries for aircraft damage ima
 6. Integration of TensorFlow and PyTorch
 
 ## Future Improvements
-Improve classification accuracy with advanced architectures (ResNet, EfficientNet)
-Fine-tune BLIP for domain-specific captioning
-Add object detection for localized damage detection
-Deploy as a web application (Streamlit / Flask)
+1. Improve classification accuracy with advanced architectures (ResNet, EfficientNet)
+2. Fine-tune BLIP for domain-specific captioning
+3. Add object detection for localized damage detection
+4. Deploy as a web application (Streamlit / Flask)
 
 ## Conclusion
 
