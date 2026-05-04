@@ -76,10 +76,10 @@ Successfully generated meaningful captions and summaries for aircraft damage ima
 6. Integration of TensorFlow and PyTorch
 
 ## Future Improvements
-1. Improve classification accuracy with advanced architectures (ResNet, EfficientNet)
+1. Improve classification accuracy with advanced architectures 
 2. Fine-tune BLIP for domain-specific captioning
 3. Add object detection for localized damage detection
-4. Deploy as a web application (Streamlit / Flask)
+4. Deploy as a web application (Flask)
 
 ## Conclusion
 
