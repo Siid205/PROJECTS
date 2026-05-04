@@ -1,11 +1,12 @@
-AIRCRAFT DAMAGE DETECTION & INTELLIGENT CAPTIONING USING DEEP LEARNING
-📌 Overview
+# AIRCRAFT DAMAGE DETECTION & INTELLIGENT CAPTIONING USING DEEP LEARNING
+
+## Overview
 
 This project presents a multimodal deep learning system that detects aircraft surface damage and generates human-readable descriptions of the detected defects. It combines computer vision for classification with vision-language models for captioning and summarization.
 
 The system uses VGG16 (Transfer Learning) to classify damage types such as dents and cracks, and integrates the BLIP (Bootstrapping Language-Image Pretraining) model to generate captions and detailed summaries for the given image.
 
-🚀 Key Features
+## Key Features
 Detects aircraft surface damage (cracks vs dents)
 Uses pretrained VGG16 (ImageNet) for feature extraction
 Applies transfer learning for efficient training
