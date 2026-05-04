@@ -36,7 +36,9 @@ Convolutional layers frozen for feature extraction
 Trained on aircraft damage dataset (cracks & dents)
 
 🔹 Captioning & Summarization Model
+
 Model: BLIP (Vision-Language Model)
+
 Generates:
 Caption → short description
 Summary → detailed explanation
@@ -46,23 +48,24 @@ Integrated into TensorFlow using a custom Keras layer (tf.py_function)
 ## Results
 
 Achieved 78% classification accuracy on the test dataset
+
 Successfully generated meaningful captions and summaries for aircraft damage images
 
 ## Applications
 
-Aircraft maintenance and inspection automation
-Damage reporting and documentation systems
-Aviation safety monitoring
-Industrial defect detection with automated reporting
+1. Aircraft maintenance and inspection automation
+2. Damage reporting and documentation systems
+3. Aviation safety monitoring
+4. Industrial defect detection with automated reporting
 
 ## Key Learnings
 
-Transfer Learning with VGG16
-Image Classification using Deep Learning
-Multimodal AI (Vision + Language Models)
-Image Captioning using BLIP
-Custom Keras Layer development
-Integration of TensorFlow and PyTorch
+1. Transfer Learning with VGG16
+2. Image Classification using Deep Learning
+3. Multimodal AI (Vision + Language Models)
+4. Image Captioning using BLIP
+5. Custom Keras Layer development
+6. Integration of TensorFlow and PyTorch
 
 ## Future Improvements
 Improve classification accuracy with advanced architectures (ResNet, EfficientNet)
